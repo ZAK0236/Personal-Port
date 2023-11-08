@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: rgba(248, 245, 245, 100);
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    margin-left: 1150px;
+}
+li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+.ZAK{
+    float: right;
+    position: fixed;
+}
+html{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: rgba(248, 245, 245, 100);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.herotxtbox{
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 100;
+    word-spacing: 4;
+    text-transform: uppercase;
+    color: #38B6FF;
+}
+.AboutMeHead{
+    background-size: cover;
+    height: 70vh;
+    background-attachment: fixed;
+    color: black;
+    border-top: 3px solid #38B6FF;
+}
+.AboutMeTxtBox{
+    width: 851px;
+    position: absolute;
+    top: 1050px;
+    left: 1250px;
+    transform: translate(-50%, -50%);
+    font-weight: 50;
+    word-spacing: 4;
+    text-transform: uppercase;
+    position: absolute;
+    color: black;
+}
+
+.SECN::after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #38B6FF;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+    margin-right: 715px;
+}
+.FacePic{
+    padding-right: 0px;
+}
+.columnP{
+    float: left;
+    width: 31%;
+    padding-left: 160px;
+    padding-top: 200px;
+    height: 160px;
+}
+.columnW{
+    float: left;
+    width: 50%;
+    padding-top: 200px;
+    height: 160px;
+}
+.comment{
+    padding-left: 0px;
+}
+.list ul{
+color: #38B6FF;
+}
+.WCTCHead{
+    background-color: rgba(248, 245, 245, 100);
+    background-size: cover;
+    height: 72vh;
+    background-attachment: fixed;
+    color: black;
+    border-top: 3px solid #38B6FF;
+}
+.WCTCtxtbox{
+    width: 719px;
+    position: absolute;
+    left: 830px;
+    margin-top: 110px;
+    font-weight: 50;
+    word-spacing: 4;
+    text-transform: uppercase;
+    color: black;
+    position: absolute;
+}
+.test3::after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #38B6FF;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+    margin-right: 585px;
+}
+.column3{
+    float: left;
+    width: 33.3%;
+    padding-left: 15px;
+    padding-top: 193px;
+    height: 160px;
+}
+.WCTCN{
+    margin-top: 5px;
+}
+.ICList{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.TopPic{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.BottomHead{
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color: black;
+}
+.Bottomtxtbox{
+    width: 851px;
+    position: absolute;
+    top: 2400px;
+    left: 1250px;
+    transform: translate(-50%, -50%);
+    font-weight: 50;
+    word-spacing: 4;
+    text-transform: uppercase;
+    position: absolute;
+    color: black;
+}
+.BTMH::after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #38B6FF;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+    margin-right: 715px;
+}
+.BottomMap{
+    padding-left: 100px;
+    padding-top: 130px;
+    border-top: 3px solid #38B6FF;
+}
+.columnMAP{
+    float: left;
+    width: 31%;
+    padding-left: 160px;
+    padding-top: 200px;
+    height: 160px;
+}
+.commentBTM{
+    padding-left: 0px;
+}
+.CTMSEC{
+    /* float: right; */
+    font-size: 20px;
+    margin-left: 1000px;
+    margin-top: -400px;
+}
