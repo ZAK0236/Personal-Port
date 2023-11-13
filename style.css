@@ -99,7 +99,7 @@ color: #38B6FF;
 .WCTCHead{
     background-color: rgba(248, 245, 245, 100);
     background-size: cover;
-    height: 72vh;
+    height: 180vh;
     background-attachment: fixed;
     color: black;
     border-top: 3px solid #38B6FF;
@@ -125,7 +125,7 @@ color: #38B6FF;
     margin-top: 30px;
     margin-right: 585px;
 }
-.column3{
+.column{
     float: left;
     width: 33.3%;
     padding-left: 15px;
@@ -153,7 +153,7 @@ color: #38B6FF;
 .Bottomtxtbox{
     width: 851px;
     position: absolute;
-    top: 2400px;
+    top: 3450px;
     left: 1250px;
     transform: translate(-50%, -50%);
     font-weight: 50;
@@ -188,8 +188,37 @@ color: #38B6FF;
     padding-left: 0px;
 }
 .CTMSEC{
-    /* float: right; */
     font-size: 20px;
     margin-left: 1000px;
     margin-top: -400px;
+}
+
+.test3::after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #38B6FF;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+    margin-right: 585px;
+}
+.column2{
+    float: left;
+    width: 33.3%;
+    padding-left: 15px;
+    padding-top: 193px;
+    height: 160px;
+    margin-top: 250px;
+}
+.CALC{
+    margin-top: 5px;
+}
+.CALCList{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.TopPic{
+    margin-top: 35px;
+    margin-bottom: 10px;
 }
